@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Core-Rinho-75';
+  src: url('../public/assets/fonts/CoreRhino75Heavy.ttf');
+}
+
+@font-face {
+  font-family: 'Core-Rinho-65';
+  src: url('../public/assets/fonts/CoreRhino65Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Core-Rinho-35';
+  src: url('../public/assets/fonts/CoreRhino35Light.ttf');
+}
+
+
+:root {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* insert title font */
+}
+
+p,
+li,
+span,
+small,
+a {
+  /* insert text font */
+}
