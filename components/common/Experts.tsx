@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { Section } from "./Section";
+import { Button } from "./Button";
 
 export default function Experts() {
   return (
       <Section>
-        <div className="flex flex-col justify-center items-center gap-14 p-10">
+        <div className="flex flex-col justify-center items-center gap-14">
 
-        <h2 className="uppercase font-CoreRinho75 text-xl xl:text-4xl">
+        <h2 className="flex justify-center uppercase font-CoreRinho75 text-xl xl:text-4xl">
           Nos experts à votre disposition
         </h2>
 
@@ -80,9 +81,10 @@ export default function Experts() {
           </div>
         </div>
 
-        <button className="uppercase bg-RoseRed font-CoreRinho75 text-white text-xl py-2 px-10 rounded-lg transition ease-in-out duration-300 hover:bg-NewGrey">
+        {/* <button className="flex justify-center uppercase bg-RoseRed font-CoreRinho75 text-white text-xl py-2 px-10 rounded-lg transition ease-in-out duration-300 hover:bg-NewGrey">
           Découvrez l'équipe
-        </button>
+        </button> */}
+        <Button text="Commander en ligne" size="lg" />
 
         </div>
 
