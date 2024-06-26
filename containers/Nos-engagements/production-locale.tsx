@@ -5,7 +5,7 @@ export default function ProductionLocale() {
     return (
       <>
       <Section>
-        <div className="flex gap-20">
+        <div className="flex flex-col gap-20 xl:flex-row">
             <div className="flex flex-col text-2xl gap-5 max-w-3xl text-justify">
                 <div>
                     <h2 className="font-CoreRinho35 text-RoseRed text-xl">PÉPINIÈRE POULLAIN</h2>
@@ -36,7 +36,7 @@ export default function ProductionLocale() {
                 <Button text="Commander en ligne" />
             </div>
 
-            <div className="flex gap-10">
+            <div className="flex flex-col gap-10 xl:flex-row">
                 <Image
                     className="mb-10"
                     src="/assets/images/Rectangle-1-champ.png"

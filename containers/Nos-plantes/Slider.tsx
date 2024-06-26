@@ -25,7 +25,7 @@ export default function Slider() {
           </div> */}
 
           <div className="flex gap-5">
-            <div className="flex justify-center items-center bg-white rounded-3xl ">
+            <div className="flex flex-col justify-center items-center bg-white rounded-3xl xl:flex-row">
               <div>
                 <Image
                   src="/assets/images/Les-rosiers.png"
@@ -40,7 +40,7 @@ export default function Slider() {
                   LES ROSIERS
                 </h2>
 
-                <div className="flex flex-col text-center max-w-96 max-h-96 gap-4">
+                <div className="flex flex-col text-start max-w-96 max-h-96 gap-4 xl:text-center">
                   <p>Les rosiers, célèbres pour leur beauté et leur parfum, sont des incontournables en aménagement paysager professionnel.</p>
                   <p>Leur polyvalence les rend adaptés à une variété de configurations, des massifs aux bordures, ajoutant ainsi une touche d'élégance et de couleur aux espaces verts.</p>
                 </div>

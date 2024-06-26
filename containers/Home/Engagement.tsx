@@ -18,11 +18,11 @@ export default function Engagement() {
           />
         </div>
 
-        <div className="flex flex-col justify-center bg-white shadow-md p-10 gap-9 rounded-2xl">
-          <h2 className="uppercase font-CoreRinho75 text-4xl">
+        <div className="flex flex-col justify-center items-center bg-white shadow-md p-10 gap-9 rounded-2xl xl:items-start">
+          <h2 className="uppercase font-CoreRinho75 text-2xl xl:text-4xl">
             Notre engagement <br /> environementale
           </h2>
-          <div className="flex items-center gap-10 max-w-xl">
+          <div className="flex flex-col items-center gap-10 max-w-xl xl:flex-row">
             <Image
               className="relative"
               src="/assets/images/vectors/Group-42.png"
@@ -42,7 +42,7 @@ export default function Engagement() {
             </div>
           </div>
 
-          <div className="flex items-center gap-10 max-w-2xl">
+          <div className="flex flex-col items-center gap-10 max-w-xl xl:flex-row">
             <Image
               className="relative"
               src="/assets/images/vectors/Group.png"
@@ -60,7 +60,7 @@ export default function Engagement() {
             </div>
           </div>
 
-          <div className="flex items-center gap-10 max-w-2xl">
+          <div className="flex flex-col items-center gap-10 max-w-xl xl:flex-row">
             <Image
               className="object-center"
               src="/assets/images/vectors/Group(1).png"

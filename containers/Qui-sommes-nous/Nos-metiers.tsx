@@ -10,7 +10,7 @@ export default function Metiers() {
             <h1 className="uppercase font-CoreRinho75 text-black text-4xl">NOS MÉTIERS</h1>
 
         
-          <div className="flex flex-col justify-center items-center gap-5 mt-10 xl:flex-row">
+          <div className="flex flex-col justify-center items-center gap-10 mt-10 xl:flex-row xl:gap-5">
 
               <div className="flex flex-col justify-center items-center">
                   <Image

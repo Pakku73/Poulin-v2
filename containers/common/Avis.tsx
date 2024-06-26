@@ -9,7 +9,7 @@ export default function Avis
 
         <div className="flex flex-col justify-center items-center gap-5 mt-10">
             <h2 className="uppercase font-CoreRinho35 text-RoseRed text-lg">VOTRE AVIS COMPTE !</h2>
-            <h1 className="uppercase font-CoreRinho75 text-black text-4xl">+ DE 10 000 PROFESSIONNELS SATISFAITS</h1>
+            <h1 className="uppercase font-CoreRinho75 text-black text-center text-4xl">+ DE 10 000 PROFESSIONNELS SATISFAITS</h1>
         </div>
         
         <div className="flex flex-col gap-5 mt-28 xl:flex-row">

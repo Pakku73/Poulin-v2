@@ -19,7 +19,7 @@ export default function CultureRaisonee() {
               </p>
             </div>
 
-            <div className="flex justify-center items-center gap-10">
+            <div className="flex flex-col justify-center items-center gap-10 xl:flex-row">
               <div className="flex flex-col justify-center items-center bg-white shadow-md p-5 gap-10 max-w-80 rounded-xl">
                 <Image
                   className="relative"

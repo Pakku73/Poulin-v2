@@ -1,3 +1,5 @@
+import { Square } from "@/components/common/Square";
+import { SQUARE_WHITE_RED } from "@/data/square.data";
 import Image from "next/image";
 // import { Square } from "@/components/common/Square";
 
@@ -14,12 +16,29 @@ export default function Herobanner() {
                 height={1000}
               />
             </div>
+
+            <div className="flex flex-col relative justify-center items-center font-CoreRinho75 text-lg text-RoseRed gap-20 -mt-40 md:flex-row">
+              {SQUARE_WHITE_RED.map((square, index) => {
+                return (
+                  <Square
+                  key={index}
+                    image={{
+                      src: square.image.src,
+                      alt: square.image.alt,
+                    }}
+                    number={square.number}
+                    text={square.text}
+                    variant="pink"
+                  />
+                );
+              })}
+        </div>
   
-            <div className="flex flex-col relative justify-center items-center font-CoreRinho75 text-lg uppercase text-RoseRed gap-20 -mt-40 xl:flex-row">
+            {/* <div className="flex flex-col relative justify-center items-center font-CoreRinho75 text-lg uppercase text-RoseRed gap-20 -mt-40 xl:flex-row"> */}
 
             {/* <Square image={} number={"900"} text={"variétés différentes de plantes"}/> */}
 
-              <div className="flex flex-col justify-center items-center bg-RoseRed py-10 shadow-md rounded-xl w-96 text-white text-center max-w-80 gap-5">
+              {/* <div className="flex flex-col justify-center items-center bg-RoseRed py-10 shadow-md rounded-xl w-96 text-white text-center max-w-80 gap-5">
                 <Image
                   src="/assets/images/vectors/square/home.png"
                   alt=""
@@ -53,8 +72,8 @@ export default function Herobanner() {
                 <p>
                   plantes produites chaque année
                 </p>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </section>
         </>
     );

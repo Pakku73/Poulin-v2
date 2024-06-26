@@ -9,7 +9,7 @@ export default function Histoire() {
         <div className="flex flex-col justify-center items-center gap-5 mt-10">
             <h2 className="uppercase font-CoreRinho35 text-RoseRed text-lg">PÉPINIÈRE POULLAIN</h2>
             <h1 className="uppercase font-CoreRinho75 text-black text-4xl">NOTRE HISTOIRE</h1>
-            <p>Nos plantes sont élevées par les soins de 20 collaborateurs passionnés !</p>
+            <p className="text-center">Nos plantes sont élevées par les soins de 20 collaborateurs passionnés !</p>
 
             <Image
                 className=" mt-10"
@@ -19,7 +19,7 @@ export default function Histoire() {
                 height={1000}
             />
 
-            <div className="flex justify-around items-center mt-28 gap-5">
+            <div className="flex flex-col justify-around items-center mt-28 gap-5 xl:flex-row">
                 <div className="flex flex-col justify-center items-center max-w-72 text-center">
                     <p className="font-CoreRinho75 text-RoseRed text-2xl">1946</p>
                     <p className="font-CoreRinho35 text-xl">Création d’une pépinière de végétaux d’ornement en plein terre</p>

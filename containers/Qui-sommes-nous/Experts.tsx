@@ -25,7 +25,7 @@ export default function Experts() {
                 <p className="font-CoreRinho35 text-sm">
                 Description description description description description description description description description description description description description description description description description.
                 </p>
-                <div className="flex">
+                <div className="flex mt-3.5">
                   <Image
                     className="relative"
                     src="/assets/images/icons/Phone-red.png"
@@ -65,7 +65,7 @@ export default function Experts() {
                 <p className="font-CoreRinho35 text-sm">
                 Description description description description description description description description description description description description description description description description description.
                 </p>
-                <div className="flex">
+                <div className="flex mt-3.5">
                   <Image
                     className="relative"
                     src="/assets/images/icons/Phone-red.png"

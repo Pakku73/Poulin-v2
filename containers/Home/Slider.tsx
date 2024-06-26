@@ -32,7 +32,7 @@ export default function Slider() {
             <div className="swiper-scrollbar"></div>
           </div>
 
-          <div className="flex gap-5">
+          <div className="flex flex-col gap-5 xl:flex-row">
             <div className="flex flex-col justify-center items-center bg-white rounded-3xl">
               <div className="w-full">
                 <Image

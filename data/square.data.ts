@@ -29,3 +29,30 @@ export const SQUARE_WHITE_DATA: Square[] = [
     variant: "white",
   },
 ];
+
+export const SQUARE_WHITE_RED: Square[] = [
+  {
+    image: {
+      src: "/assets/images/vectors/square/home.png",
+      alt: "Maison",
+    },
+    text: "variétés différentes de plantes",
+    variant: "pink",
+  },
+  {
+    image: {
+      src: "/assets/images/vectors/square/earth.png",
+      alt: "Pots de fleurs rouge",
+    },
+    text: "RESPECT DE LA NATURE",
+    variant: "pink",
+  },
+  {
+    image: {
+      src: "/assets/images/vectors/square/ampoule.png",
+      alt: "Pots de fleurs rouge",
+    },
+    text: "plantes produites chaque année",
+    variant: "pink",
+  },
+];

@@ -3,15 +3,15 @@ import Image from "next/image";
 export default function Feuillage() {
   return (
     <>
-      <section className="flex flex-col justify-center items-center w-full mt-28">
-        <Image
+      <section className="flex flex-col justify-center items-center w-full mt-28 bg[url('/assets/images/Feuille.png')] bg-cover"> 
+      <Image
           className="relative w-full"
           src="/assets/images/Feuille.png"
           alt=""
           width={100}
           height={100}
         />
-        <div className="flex absolute justify-center items-center gap-10">
+        <div className="flex flex-col absolute justify-center items-center gap-10 xl:flex-row">
           <div className="flex flex-col justify-center items-center gap-2 w-52">
             <Image
               className="relative"

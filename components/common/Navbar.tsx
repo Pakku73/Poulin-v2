@@ -17,15 +17,15 @@ export const Navbar = () => {
             </Link>
 
             <Link href="/nos-plantes">Nos plantes</Link>
-            <div className="flex flex-col relative">
-              <div className="flex gap-2">
+            <div className="relative group">
+              <div className="flex gap-2 items-center cursor-pointer">
                 <p className="cursor-default">La pépinière</p>
                 <div className="flex items-center">
                   <Image src="/assets/images/icons/drop-down-arrow.png" alt="" width={10} height={0}/>
                 </div>
               </div>
 
-              <div className="flex flex-col absolute justify-center items-center mt-14 bg-white p-5 gap-5 min-w-80 rounded-xl"> {/* flex flex-col  */}
+              <div className="flex flex-col absolute justify-center mt-5 bg-white p-5 gap-5 w-72 rounded-xl shadow-md opacity-0 group-hover:opacity-100 group-hover:mt-10 transition-all duration-300 invisible group-hover:visible"> {/* menu déroulant  */}
                 <Link href="/qui-sommes-nous">Qui sommes nous ?</Link>
                 <Link href="/nos-engagements">Nos engagements</Link>
               </div>

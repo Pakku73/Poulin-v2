@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export default function Form() {
   return (
       <section className="flex flex-col justify-center items-center gap-14 mt-10">
-        <div className="flex justify-around bg-Baige w-full py-20">
+        <div className="flex flex-col justify-around bg-Baige w-full py-20 xl:flex-row">
           <div className="flex flex-col gap-5">
             <Image
               src="/assets/images/vectors/Feuille-2.png"

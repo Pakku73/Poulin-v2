@@ -6,7 +6,7 @@ export default function Experts() {
       <Section>
         <div className="flex flex-col justify-center items-center gap-14 p-10">
 
-        <h2 className="uppercase font-CoreRinho75 text-4xl">
+        <h2 className="uppercase font-CoreRinho75 text-xl xl:text-4xl">
           Nos experts à votre disposition
         </h2>
 
@@ -14,7 +14,7 @@ export default function Experts() {
           <div className="flex flex-col justify-center items-center relative">
             <Image src="/assets/images/Monsieur.png" width={700} height={100} alt="" />
 
-            <div className="flex absolute bg-white py-6 px-10 bottom-8 rounded-xl gap-14">
+            <div className="flex flex-col bg-white  bottom-8 rounded-xl gap-2 xl:gap-14 xl:flex-row xl:absolute xl:py-6 xl:px-10">
               <div className="flex flex-col">
                 <h2 className="uppercase font-CoreRinho75 text-RoseRed text-2xl">
                   Olivier le cloitre
@@ -51,7 +51,7 @@ export default function Experts() {
               height={100}
             />
 
-            <div className="flex absolute bg-white py-6 px-10 bottom-8 rounded-xl gap-14">
+            <div className="flex flex-col bg-white  bottom-8 rounded-xl gap-2 xl:gap-14 xl:flex-row xl:absolute xl:py-6 xl:px-10">
               <div className="flex flex-col">
                 <h2 className="uppercase font-CoreRinho75 text-RoseRed text-2xl">
                   Delphine Dessemme

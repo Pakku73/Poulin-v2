@@ -1,7 +1,7 @@
 
 export interface Square {
     image: Image;
-    number: string;
+    number?: string;
     text: string;
     variant?: string;
   }

@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const Footer = () => {
   return (
-      <footer className="flex flex-col flex-col-reverse w-full justify-around bg-RoseRed p-20 xl:flex-row">
+      <footer className="flex flex-col flex-col-reverse w-full gap-10 bg-RoseRed p-20 xl:flex-row xl:justify-around">
         <div>
           <div className="flex justify-center items-center p-10 bg-white rounded-md">
             <Image

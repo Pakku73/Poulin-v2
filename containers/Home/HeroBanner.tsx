@@ -16,7 +16,7 @@ export default function Herobanner() {
           />
         </div>
 
-        <div className="flex flex-col relative justify-center items-center font-CoreRinho75 text-lg text-RoseRed gap-20 -mt-40 xl:flex-row">
+        <div className="flex flex-col relative justify-center items-center font-CoreRinho75 text-lg text-RoseRed gap-20 -mt-40 md:flex-row">
           {SQUARE_WHITE_DATA.map((square, index) => {
             return (
               <Square
